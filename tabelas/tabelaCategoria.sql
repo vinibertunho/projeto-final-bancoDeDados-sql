@@ -1,0 +1,5 @@
+CREATE TABLE CATEGORIA {
+    categoria_id PRIMARY KEY AUTO_INCREMENT,
+    nome_categoria VARCHAR(150) NOT NULL UNIQUE,
+
+}

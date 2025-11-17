@@ -1,0 +1,7 @@
+CREATE TABLE
+    CLIENTES (
+        cliente_id INT PRIMARY KEY AUTO_INCREMENT,
+        nome_cliente VARCHAR(150) NOT NULL,
+        email VARCHAR(100) NOT NULL UNIQUE,
+        data_cadastro TIMESTAMP DEFAULT CURRENT_TIMESTAMP
+    );
